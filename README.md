@@ -19,18 +19,21 @@ Example Output: Iay_
 * _The program adds "ay" to the end of words beginning with a vowel.
 Example Input: apple
 Example Output: appleay_
-* _The program moves the moves the first character to the end of a word and adds "ay" to the end if the word begins with a single consonant.
+* _The program moves the first character to the end of a word and adds "ay" to the end if the word begins with a single consonant.
 Example Input: banana
 Example Output: ananabay_
-* _The program moves the moves the first consecutive consonant characters to the end of a word and adds "ay" to the end if the word begins with a multiple consonants.
+* _The program moves the first consecutive consonant characters to the end of a word and adds "ay" to the end if the word begins with a multiple consonants.
 Example Input: grapefruit
 Example Output: apefruitgray_
 * _The program moves the "qu" to the end of the word and adds "ay" to words that begin with the sequence "qu".
 Example Input: quilt
 Example Output: iltquay_
-* _The program moves the first consecutive consonant characters, along with the "u" to the end of the word and adds "ay" for words beginning with a sequence of consonants ending in q, followed by "u".
+* _The program moves the first consecutive consonant characters, along with the "u", to the end of the word and adds "ay" for words beginning with a sequence of consonants ending in q, followed by "u".
 Example Input: quilt
 Example Output: iltquay_
+* _The program moves the first consecutive consonant characters to the end of the word and adds "ay" for words beginning with "y",
+Example Input: yellow
+Example Output: ellowyay_
 
 
 
